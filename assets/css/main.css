@@ -1,0 +1,112 @@
+:root{
+    --main-bg: white;
+    --compl-bg: #F3F8F5;
+    --main-text: #383838;
+    --compl-text: #8FBC8F;
+}
+
+body{
+    color: var(--main-text);
+}
+
+.banner-info{
+    margin-top: 5%;
+}
+
+.img-me{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.nav-link{
+    color: var(--compl-text) !important;
+}
+
+.banner-text{
+    color: var(--main-text);
+}
+
+.sub-name-deets{
+    color: var(--compl-text);
+}
+
+.sub-deets{
+    color: var(--main-text);
+}
+
+.socials{
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.fa {
+    padding: 0px 10px 10px 0px;
+    margin: 0px 20px 10px 0px;
+    transform: scale(1.5);
+    color: var(--compl-text);
+}
+
+.content-photo{
+    width: 200px;
+    height: 200px;
+}
+
+.head-title{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#about{
+    margin: 50px 0px 40px 0px;
+    background-color: var(--compl-bg);
+}
+
+.work-icon{
+    float: middle;
+    max-width:50px;
+    max-height:50px;
+    width:auto;
+    height:auto;
+    color: var(--main-text);
+    padding-top: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.used{
+    color: var(--compl-text);
+    font-style: italic;
+}
+
+.card{
+    color: var(--main-text);
+    margin-bottom: 20px;
+    transition: transform .5s;
+}
+
+.card:hover{
+    background-color: var(--compl-bg);
+    transform: scale(1.01);
+}
+
+.feature-title{
+    color: var(--main-text);
+}
+
+.feature-body{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--compl-bg);
+}
+
+.sub-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.link{
+    color: var(--compl-text);
+    font-weight: 700;
+}
