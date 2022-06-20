@@ -17,6 +17,11 @@ hr{
     margin-left:0;
 }
 
+small{
+    font-size: 24px;
+    font-weight: 500;
+}
+
 .banner-info{
     margin-top: 5%;
 }
@@ -87,6 +92,10 @@ hr{
     font-style: italic;
 }
 
+.date{
+    font-style: normal;
+}
+
 .card{
     color: var(--main-text);
     margin-bottom: 20px;
@@ -119,6 +128,7 @@ hr{
     font-size: 30px;
     font-weight: 700;
     margin-top: 3rem;
+    color: var(--compl-text);
 }
 
 .about{
