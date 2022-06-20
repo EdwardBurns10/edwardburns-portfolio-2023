@@ -3,10 +3,18 @@
     --compl-bg: #F3F8F5;
     --main-text: #383838;
     --compl-text: #8FBC8F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
     color: var(--main-text);
+}
+
+hr{
+    max-width: 5%;
+    border: 5px solid var(--compl-text);
+    border-radius: 5px;
+    margin-left:0;
 }
 
 .banner-info{
@@ -15,7 +23,7 @@ body{
 
 .img-me{
     border-radius: 50%;
-    width: 100%;
+    width: 90%;
     height: auto;
     overflow: hidden;
 }
@@ -83,12 +91,19 @@ body{
     color: var(--main-text);
     margin-bottom: 20px;
     transition: transform .5s;
+    /* max-height: 200px; */
+    /* overflow: hidden; */
 }
 
 .card:hover{
     background-color: var(--compl-bg);
     transform: scale(1.01);
+    /* cursor: pointer; */
 }
+
+/* .expanded-card{
+    max-height: 600px;
+} */
 
 .feature-title{
     color: var(--main-text);
@@ -106,7 +121,19 @@ body{
     margin-top: 3rem;
 }
 
+.about{
+    margin-top: 0px;
+}
+
 .link{
     color: var(--compl-text);
     font-weight: 700;
+}
+
+.skills-card{
+    margin-bottom: 10px;
+}
+
+.skills-head:hover{
+    color: var(--compl-text);
 }
